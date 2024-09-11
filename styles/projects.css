@@ -46,12 +46,17 @@
   font-weight: bolder;
 }
 
-.project{
-  margin-left: 100px;
-  display: grid;
-  margin: 50px;
-  height: 300px;
-  width: 300px;
+.project1{
+  display: flex;
+  height: 400px;
+  width: 500px;
+  margin-right: 50px;
+}
+
+.project2{
+  display: flex;
+  height: 400px;
+  width: 500px;
 }
 
 .project-name{
@@ -63,7 +68,6 @@
 
 .subtext{
   font-size: medium;
-  padding-bottom: 15px;
 }
 
 .description{
