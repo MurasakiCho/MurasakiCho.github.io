@@ -31,5 +31,16 @@
 }
 
 .pic{
-  
+  width: 480px;
+  height: 640px;
+  margin: 100px;
+}
+
+.container {
+  display: flex;
+}
+
+.text {
+  margin-top: 100px;
+  margin-right: 100px;
 }
