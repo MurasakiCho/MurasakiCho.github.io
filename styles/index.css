@@ -12,10 +12,17 @@
   font-weight: bold;
 }
 
+@keyframes title2{
+  from{font-size: xx-large;}
+  to{font-size: 46px;}
+}
+
 .title2{
   color: #76517c;
   font-size: xx-large;
   font-weight: bolder;
+  animation-name: title2;
+  animation-duration: 4s;
 }
 
 .container{
@@ -66,6 +73,8 @@
 .resume-button{
   background-color: #76517c;
   color: white;
+  width: 155px;
+  height: 35px;
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -91,6 +100,3 @@
   padding-right: 200px;
 }
 
-.other-links{
-  
-}

@@ -1,0 +1,75 @@
+.about-page{
+  background-color: white;
+}
+
+.header {
+  background-color: aqua;
+}
+
+.page-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px; 
+  padding-bottom: 15px; 
+
+}
+
+.header-name{
+  color: rgb(63, 69, 49);
+  font-weight: bold;
+  font-size: large;
+}
+
+.page-links{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.container{
+  justify-content: center;
+  align-items: center;
+  display:grid;
+  margin: 50px;
+}
+
+.title{
+  font-size: xx-large;
+  color: #76517c;
+  font-weight: bolder;
+  padding-left: 120px;
+ 
+}
+
+.form{
+  margin: 50px;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+}
+
+.input{
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.input-message{
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  padding-bottom: 200px;
+}
+
+.form-button{
+  background-color: #76517c;
+  color: white;
+  width: 155px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
