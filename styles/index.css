@@ -12,11 +12,6 @@
   font-weight: bold;
 }
 
-@keyframes title2{
-  from{font-size: xx-large;}
-  to{font-size: 46px;}
-}
-
 .title2{
   color: #76517c;
   font-size: xx-large;
@@ -78,6 +73,7 @@
   border: none;
   border-radius: 5px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .page-header{

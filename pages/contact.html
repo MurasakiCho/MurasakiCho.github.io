@@ -2,40 +2,92 @@
 <html>
   <head>
     <title>Contact Me</title>
-    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/contact.css" />
   </head>
 
   <body class="about-page">
     <div class="page-header">
       <div class="header-name"><text>Briana O'Neal</text></div>
       <div class="page-links">
-      <a href="../index.html">Home</a>
-      <a href="about.html" style="padding-left: 15px;">About</a>
-      <a href="projects.html" style="padding-left: 15px;">Projects</a>
-      <a href="contact.html" style="padding-left: 15px;">Contact Me</a>
+        <a href="../index.html">Home</a>
+        <a href="about.html" style="padding-left: 15px">About</a>
+        <a href="projects.html" style="padding-left: 15px">Projects</a>
+        <a href="contact.html" style="padding-left: 15px">Contact Me</a>
       </div>
       <div class="other-links">
-      <a href="https://github.com/MurasakiCho">
-        <img src="/resources/github-icon.png" alt="Github-link" style="width:25px;height:25px;">
-      </a>
-      <a href="https://www.linkedin.com/in/briana-o-neal-38b9a6266/" style="padding-left: 15px;">
-        <img src="/resources/linkedin-icon.png" alt="linkedIn-link" style="width:25px;height:25px;">
-      </a>
+        <a href="https://github.com/MurasakiCho" target="_blank">
+          <img
+            src="/resources/github-icon.png"
+            alt="Github-link"
+            style="width: 25px; height: 25px"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/briana-o-neal-38b9a6266/"
+          target="_blank"
+          style="padding-left: 15px"
+        >
+          <img
+            src="/resources/linkedin-icon.png"
+            alt="linkedIn-link"
+            style="width: 25px; height: 25px"
+          />
+        </a>
       </div>
     </div>
-    
+
     <div class="container">
       <div><text class="title">Contact Me</text></div>
 
-    <form class="form" action="/action_page.php">
-      <input class="input" type="text" id="name" name="name" placeholder="Name"><br>
-      <input class="input" type="text" id="email" name="email" placeholder="Email"><br>
-      <input class="input" type="text" id="subject" name="subject" placeholder="Subject"><br>
-      <input class="input-message" type="text" id="message" name="message" placeholder="Message"><br><br>
-      <input class="form-button" type="submit" value="Submit">
-    </form>
-    
-  </div>
-
+      <form
+        class="form"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="1c78315e-6400-444c-a533-04614e480e3b"
+        />
+        <input
+          class="input"
+          type="text"
+          type="reset"
+          id="name"
+          name="name"
+          placeholder="Name"
+          autocomplete="off"
+          required
+        /><br />
+        <input
+          class="input"
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Email"
+          autocomplete="off"
+          required
+        /><br />
+        <input
+          class="input"
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="Subject"
+          autocomplete="off"
+          required
+        /><br />
+        <input
+          class="input-message"
+          type="text"
+          id="message"
+          name="message"
+          placeholder="Message"
+          autocomplete="off"
+          required
+        /><br /><br />
+        <input class="form-button" type="submit" value="Submit" />
+      </form>
+    </div>
   </body>
 </html>
