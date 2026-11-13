@@ -72,6 +72,7 @@ button:focus-visible {
   width: 100%;
   margin: 0 auto;
   padding-inline: clamp(24px, 6vw, 72px);
+  padding-bottom: 90px;
   display: flex;
   flex-direction: column;
   justify-content: center;
