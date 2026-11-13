@@ -1,3 +1,5 @@
+import Resume from "../assets/O'Neal Resume.pdf";
+
 export default function Footer() {
     return(
         <footer className="footer">
@@ -14,6 +16,10 @@ export default function Footer() {
 
                 <a href="mailto:brianaoneal823@gmail.com" target="_blank" rel="nooppener noreferrer">
                     EMAIL↗
+                </a>
+
+                <a href={Resume} target="_blank" rel="nooppener noreferrer">
+                    RESUME↗
                 </a>
             </div>
             
